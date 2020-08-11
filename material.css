@@ -16,17 +16,11 @@ body {
   top: 0 !important;
 }
 
-span#Troy {
-  padding-left: 10px;
-  color: black;
-}
-
-span#Mikael {
-  color: black;
-}
-
-span#Esguerra {
-  color: black;
+#resumeicon {
+  margin-top: 15px !important;
+  margin-left: 25px !important;
+  height: 30px !important;
+  width: 30px !important;
 }
 
 #intro {
