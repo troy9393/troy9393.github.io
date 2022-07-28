@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/967ea990ff.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <nav class="navbar">
@@ -18,16 +19,19 @@
         </div>
         <ul class="navbar__menu">
           <li class="navbar__item">
-            <a href="#home" class="navbar__links" id="home-page">Education</a>
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
           </li>
           <li class="navbar__item">
-            <a href="#about" class="navbar__links" id="about-page">Background</a>
+            <a href="#background" class="navbar__links" id="educ-page">Education</a>
           </li>
           <li class="navbar__item">
-            <a href="#services" class="navbar__links" id="services-page">Affiliations</a>
+            <a href="#educ" class="navbar__links" id="back-page">Background</a>
           </li>
           <li class="navbar__item">
-            <a href="#services" class="navbar__links" id="services-page">Certificates</a>
+            <a href="#affi" class="navbar__links" id="affi-page">Affiliations</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#cert" class="navbar__links" id="cert-page">Certificates</a>
           </li>
           <li class="navbar__btn">
             <a href="#sign-up" class="button" id="signup">Contact</a>
@@ -35,5 +39,127 @@
         </ul>
       </div>
     </nav>
+    <!-- Introduction Section -->
+    <div class="intro" id="home">
+      <div class="intro__container">
+        <h1 class="intro__heading">
+          <span>Hi!</span> I'm Troy. :)
+        </h1>
+        <p class="intro__description">This is my resume</p>
+        <button class="main__btn"><a href="#background">Get to know me</a></button>
+      </div>
+    </div>
+
+
+    <!-- Education Section -->    
+    <div class="background" id="background">
+      <h1>Education</h1>
+      <div class="background__wrapper">
+        <div class="background__card">
+          <h2>Junior Highschool</h2>
+          <p>Pasay City West Highschool</p>
+          <p>DOST-ESEP Program Graduate</p>
+          
+        </div>
+        <div class="background__card">
+          <h2>Senior Highschool</h2>
+          <p>De La Salle University-Manila</p>
+          <p>STEM Strand Graduate</p>
+          
+        </div>
+        <div class="background__card">
+          <h2>College</h2>
+          <p>De La Salle University-Manila</p>
+          <p>Bachelor of Science in Information Technology</p>
+          <p>Dean's List Academic Award Recipient</p>
+          <p>DLSU Research Congress 2022 Participant</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Background -->
+    <div class="educ" id="educ">
+      <div class="educ__container">
+        <div class="educ__img--container">
+          <div class="educ__img--card"><i class="fa-solid fa-user-graduate"></i></div>
+        </div>
+        <div class="educ__content">
+          <h1>Background</h1>
+          <h2>We Help businesses scale</h2>
+          <p>Schedule a call to learn more about our services</p>
+          <button class="main__btn"><a href="#">Schedule Call</a></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features -->
+    <div class="educ" id="affi">
+      <div class="educ__container">
+        <div class="educ__content">
+          <h1>Affiliations?</h1>
+          <h2>We Help businesses scale</h2>
+          <p>Schedule a call to learn more about our services</p>
+          <button class="main__btn"><a href="#">Schedule Call</a></button>
+        </div>
+        <div class="educ__img--container">
+          <div class="educ__img--card"><i class="fa-solid fa-user-graduate"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Certificates -->
+    <div class="educ" id="cert">
+      <div class="educ__container">
+        <div class="educ__content">
+          <h1>Certificates</h1>
+          <h2>We Help businesses scale</h2>
+          <p>Schedule a call to learn more about our services</p>
+          <button class="main__btn"><a href="#">Schedule Call</a></button>
+        </div>
+        <div class="educ__img--container">
+          <div class="educ__img--card"><i class="fa-solid fa-user-graduate"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__links--wrapper">
+          <div class="footer__links--items">
+            <h2>About us</h2>
+            <a href="#">Email</a>
+            <a href="#">Career</a>
+            <a href="#">Terms</a>
+          </div>
+          <div class="footer__links--items">
+            <h2>About us</h2>
+            <a href="#">Email</a>
+            <a href="#">Career</a>
+            <a href="#">Terms</a>
+          </div>
+          <div class="footer__links--items">
+            <h2>About us</h2>
+            <a href="#">Email</a>
+            <a href="#">Career</a>
+            <a href="#">Terms</a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="#" id="footer__logo">My Resume</a>
+          </div>
+          <p class="website__rights">This website is created to practice web development using CSS and JavaScript. This is heavily influenced by a tutorial video made by Brian Design on YouTube.</p>
+          <div class="social__icons">
+            <!-- <a href="#" class="social__icons--link" target="_blank"><i class="fa-brands fa-linkedin"></i></a> -->
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
   </body>
 </html>
