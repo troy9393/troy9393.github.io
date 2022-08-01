@@ -13,7 +13,7 @@
 <body>
   <!-- Navbar -->
   <div class="container_nav">
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar fixedtop navbar-expand-lg navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><span>Troy</span></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,10 +22,10 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About</a>
+              <a class="nav-link active" aria-current="page" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Education</a>
+              <a class="nav-link" href="#educ">Education</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Background</a>
@@ -45,14 +45,14 @@
   </div>
   <!-- Navbar End -->
   <!-- About Me -->
-  <section class="about">
-    <div class="container about">
-      <div class="row about">
+  <section class="about" >
+    <div class="container about" id="about" style="height: 90vh;">
+      <div class="row about mx-auto">
         <div class="col about">
           <p id="Iam">Hi, I am</p>
           <h1 id="headName">Troy Mikael Esguerra</h1>
           <p id="desc">I am a graduating BS Information Technology student from De La Salle University Manila. This is a website representation of my resume based on the Bootstrap 5 framework.</p>
-          <button type="button" class="start btn btn-outline-light">Get to know me</button>
+          <a href="#educ"><button type="button" class="start btn btn-outline-light">Get to know me</button></a>
         </div>
       </div>
     </div>
@@ -61,7 +61,7 @@
 
   <!-- Education -->
   <section class="educ">
-    <div class="educ container">
+    <div class="educ container" id="educ" style="height: 90vh;">
       <h1 class="sectionHeader">Education</h1>
       <div class="educ row">
         <div class="educ col-sm-4">
@@ -108,7 +108,7 @@
   <!-- Education End -->
 
   <!-- Footer -->
-  <section class="footer" style="margin-bottom: 250px;"></section>
+  <!-- <section class="footer" style="margin-bottom: 250px;"></section> -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

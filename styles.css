@@ -38,13 +38,8 @@ body{
     margin-right: 20px;
 }
 
-.container.about, .row.about,.col.about{
-    /* justify-items: center;
-    text-align: center; */
-}
-
 .col.about{
-    padding: 20vh;
+    padding-top: 25vh;
 }
 
 #Iam{
@@ -69,8 +64,7 @@ body{
 }
 
 .educ.container{
-    margin-left: auto;
-    padding: 10px;
+    padding-top: 15vh;
 }
 
 .sectionHeader{
