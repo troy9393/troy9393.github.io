@@ -63,6 +63,17 @@ body{
     margin-top: 10px;
 }
 
+.section{
+    height: 100vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .section{
+        height: auto;
+    }
+  }
+
+/* Education */
 .educ.container{
     padding-top: 15vh;
 }
@@ -79,28 +90,90 @@ body{
     margin-top: 50px;
 }
 
-.educ.card{
-    background-color: #4f5d75;
+/* Background */
+.back.container{
+    padding-top: 15vh;
 }
 
-.educ.card .list-group-item{
-    background-color: #4f5d75;
+.back.container h1{
+    text-align: center;
+}
+
+.back.container h2{
+    color:#728cb9;
+}
+
+.desc{
     color: #ffffff;
+    line-height: 2;
 }
 
-.educ.card-body{
-    margin-bottom: 10px;
-}
-
-.educ.card-body span{
+.desc span{
     color: #ef8354;
 }
 
-.educ.card-title{
-    color:#ffffff;
-    font-weight: 700;
+#certificate{
+    color:#ef8354;
 }
 
-.educ.card-subtitle{
-    color:#bfc0c0;
+.dev.container{
+    text-align: justify;
+}
+
+.mng.container{
+    text-align: justify;
+}
+
+.ops.container{
+    text-align: justify;
+}
+
+.dev.row{
+    margin-top: 50px;
+}
+
+.mng.row{
+    margin-top: 25px;
+}
+
+.ops.row{
+    margin-top: 25px;
+}
+
+/* Affiliations */
+.affi.container{
+    padding-top: 15vh;
+}
+
+.affi.container h1{
+    text-align: center;
+}
+
+.org{
+    color:#ef8354;
+    margin-top: 50px;
+    font-size: larger;
+}
+
+.position{
+    color: #728cb9;
+}
+
+.year{
+    color: #728cb9;
+}
+
+.org_desc{
+    color:#ffffff;
+    text-align: justify;
+    margin-top: 5px;
+}
+
+/* Certificates */
+.cert.container{
+    padding-top: 15vh;
+}
+
+.cert.container h1{
+    text-align: center;
 }

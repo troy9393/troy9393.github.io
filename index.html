@@ -13,7 +13,7 @@
 <body>
   <!-- Navbar -->
   <div class="container_nav">
-    <nav class="navbar fixedtop navbar-expand-lg navbar-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><span>Troy</span></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,13 +28,13 @@
               <a class="nav-link" href="#educ">Education</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Background</a>
+              <a class="nav-link" href="#back">Background</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Affiliations</a>
+              <a class="nav-link" href="#affi">Affiliations</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Certificates</a>
+              <a class="nav-link" href="#cert">Certificates</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
@@ -45,7 +45,7 @@
   </div>
   <!-- Navbar End -->
   <!-- About Me -->
-  <section class="about" >
+  <section class="about section" >
     <div class="container about" id="about" style="height: 90vh;">
       <div class="row about mx-auto">
         <div class="col about">
@@ -60,52 +60,98 @@
   <!-- About Me End -->
 
   <!-- Education -->
-  <section class="educ">
-    <div class="educ container" id="educ" style="height: 90vh;">
+  <section class="educ section">
+    <div class="educ container" id="educ">
       <h1 class="sectionHeader">Education</h1>
       <div class="educ row">
-        <div class="educ col-sm-4">
-          <div class="educ card mx-auto" style="width: 25rem;">
-            <div class="educ card-body">
-              <h5 class="educ card-title">Pasay City West High School</h5>
-              <h6 class="educ card-subtitle mb-2">Junior High School</h6>
-              <span>2012-2016</span>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Graduated under the DOST-ESEP Program</li>
-            </ul>
-          </div>
+        <div class="col">
+          <span class="org">Pasay City West High School</span><p class="position"> Junior High School 2012-2016</p>
+          <p class="org_desc">Graduated under the DOST-ESEP Program</p>
         </div>
-        <div class="educ col-sm-4">
-          <div class="educ card mx-auto" style="width: 25rem;">
-            <div class="educ card-body">
-              <h5 class="educ card-title">De La Salle University Manila</h5>
-              <h6 class="educ card-subtitle mb-2">Senior High School</h6>
-              <span>2014-2016</span>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Graduated under the STEM Strand</li>
-            </ul>
-          </div>
+        <div class="col">
+          <span class="org">De La Salle University Manila</span><p class="position"> Senior High School 2014-2016</p>
+          <p class="org_desc">Graduated under the STEM Strand</p>
         </div>
-        <div class="educ col-sm-4">
-          <div class="educ card mx-auto" style="width: 25rem;">
-            <div class="educ card-body">
-              <h5 class="educ card-title">De La Salle University Manila</h5>
-              <h6 class="educ card-subtitle mb-2">College</h6>
-              <span>2016-Present</span>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Bachelor of Science in Information Technology</li>
-              <li class="list-group-item">Dean’s List Academic Award Recipient</li>
-              <li class="list-group-item">DLSU Research Congress 2022 Participant</li>
-            </ul>
-          </div>
+        <div class="col">
+          <span class="org">De La Salle University Manila</span><p class="position"> College 2016-Present</p>
+          <p class="org_desc">Bachelor of Science in Information Technology</p>
+          <p class="org_desc">Dean's List Academic Award Recipient</p>
+          <p class="org_desc">DLSU Research Congress 2022 Participant</p>
         </div>
+
       </div>
     </div>
   </section>
   <!-- Education End -->
+
+  <!-- Background -->
+  <div class="back section">
+    <div class="back container" id="back">
+      <h1 class="sectionHeader">Technical Background</h1>
+      <div class="dev row">
+        <div class="col-6">
+          <div class="dev container">
+            <h2>Development</h2>
+            <p class="desc">I have learned systems development in
+              <span>Java</span>,
+              <span>Python</span>,
+              <span>Django</span>,
+              <span>JavaScript</span>, and 
+              <span>HTML+CSS</span> throughout my college years. Also, I grew knowledge of 
+              <span>UI</span> and <span>UX Design</span>.</p>
+          </div>
+        </div>
+      </div>
+      <div class="mng row justify-content-end">
+        <div class="col-6">
+          <div class="mng container">
+            <h2>Management</h2>
+            <p class="desc">I also completed a course called
+              <span>AWS Academy Cloud Foundations</span> as one of our curriculum requirements and got a <a id="certificate" target="_blank" href="https://www.credly.com/badges/42f7cc17-fde8-4a93-b1c5-2b5f7b3eae2c?source=linked_in_profile">certificate</a>.</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="ops row">
+        <div class="col-6">
+          <div class="ops container">
+            <h2>Operations</h2>
+            <p class="desc">With years of using computers and other devices, I am proficient at using
+              <span>Windows-based Systems</span> and <span>Microsoft Office Applications</span>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Background End -->
+
+  <!-- Affiliations -->
+  <section class="affi section">
+    <div class="affi container" id="affi">
+      <h1 class="sectionHeader">Affiliations</h1>
+      <div class="row">
+        <span class="org">La Salle Computer Society</span><span class="position"> Member 2019</span>
+        <p class="org_desc">LSCS has been striving to develop their members to become competent and well-rounded Lasallians who are aware of the numerous advances in computer technology.</p>
+      </div>
+      <div class="row">
+        <span class="org">Google Developer Student Clubs</span><span class="position"> Member 2019</span>
+        <p class="org_desc">DSC is a community of Lasallian helping one another learn emerging technologies with Google to solve real-word problems for our communities and local business.</p>
+      </div>
+      <div class="row">
+        <span class="org">User Experience Society - DLSU</span><span class="position"> Member 2019</span>
+        <p class="org_desc">UXsoc aids other various organizations by accomplishing quality products and services by applying principles, concepts, and methodologies in such strategies</p>
+      </div>
+    </div>
+  </section>
+  <!-- Affiliations End -->
+
+  <!-- Certificates -->
+  <section class="cert section">
+    <div class="cert container" id="cert">
+      <h1 class="sectionHeader">Certificates</h1>
+    </div>
+  </section>
+  <!-- Certificates End -->
 
   <!-- Footer -->
   <!-- <section class="footer" style="margin-bottom: 250px;"></section> -->
