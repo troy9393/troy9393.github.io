@@ -11,7 +11,7 @@ body{
 }
 
 .navbar{
-    background-color: #2d3142;
+    background-color: #2b2f42;
 }
 
 .navbar-brand{
@@ -39,7 +39,7 @@ body{
 }
 
 .col.about{
-    padding-top: 25vh;
+    padding-top: 30vh;
 }
 
 #Iam{
@@ -63,19 +63,38 @@ body{
     margin-top: 10px;
 }
 
-.section{
+section{
     height: 100vh;
+    /* scroll-snap-align: start; */
+}
+
+.educ.section, .affi.section{
+    background-color: #3e4358;
+}
+
+#whole{
+    /* scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh; */
 }
 
 @media only screen and (max-width: 768px) {
     .section{
         height: auto;
     }
+
+    .section h1{
+        font-size: 20px;
+    }
+
+    .educ.card, .back.card, .affi.card, .cert.card{
+        width: auto;
+    }
   }
 
 /* Education */
 .educ.container{
-    padding-top: 15vh;
+    padding-top: 20vh;
 }
 
 .sectionHeader{
@@ -86,8 +105,40 @@ body{
     text-align: center;
 }
 
+.educ.card, .back.card{
+    margin-bottom: 25px;
+    padding: 5px;
+    background: #2d3142;
+    width: 600px;
+}
+
+.back.card{
+    margin-bottom: 25px;
+    padding: 5px;
+    background: #3e4358;
+    width: 600px;
+}
+
+.affi.card{
+    margin-bottom: 25px;
+    padding: 5px;
+    background: #2d3142;
+    width: auto;
+}
+
+.cert.card{
+    margin-bottom: 25px;
+    padding: 5px;
+    background: #3e4358;
+    width: auto;
+}
+
+.educ.container .row, .back.container .row{
+    justify-content: center;
+}
+
 .educ.row{
-    margin-top: 50px;
+    /* margin-top: 150px; */
 }
 
 /* Background */
@@ -100,7 +151,7 @@ body{
 }
 
 .back.container h2{
-    color:#728cb9;
+    color:#ef8354;
 }
 
 .desc{
@@ -152,7 +203,7 @@ body{
 .org{
     color:#ef8354;
     margin-top: 50px;
-    font-size: larger;
+    font-size: large;
 }
 
 .position{
@@ -171,9 +222,13 @@ body{
 
 /* Certificates */
 .cert.container{
-    padding-top: 15vh;
+    padding-top: 20vh;
 }
 
 .cert.container h1{
     text-align: center;
+}
+
+.cert.container .card{
+    margin-top: 100px;
 }
