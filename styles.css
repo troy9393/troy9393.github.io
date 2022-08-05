@@ -239,6 +239,10 @@ body{
         height: auto;
     }
 
+    .about.section{
+        margin-bottom: 100px;
+    }
+
     .section h1{
         font-size: 20px;
     }
