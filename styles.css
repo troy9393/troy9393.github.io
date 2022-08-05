@@ -80,7 +80,7 @@ body{
 
 .about.section, .educ.section, .back.section, .affi.section, .footer.section{
     height: 100vh;
-    scroll-snap-align: start;
+    /* scroll-snap-align: start; */
 }
 
 #whole{
