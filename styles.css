@@ -60,7 +60,7 @@ body{
 }
 
 .start{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 section{
@@ -78,19 +78,7 @@ section{
     height: 100vh; */
 }
 
-@media only screen and (max-width: 768px) {
-    .section{
-        height: auto;
-    }
 
-    .section h1{
-        font-size: 20px;
-    }
-
-    .educ.card, .back.card, .affi.card, .cert.card{
-        width: auto;
-    }
-  }
 
 /* Education */
 .educ.container{
@@ -132,6 +120,20 @@ section{
     background: #3e4358;
     width: auto;
 }
+
+@media only screen and (max-width: 768px) {
+    .section{
+        height: auto;
+    }
+
+    .section h1{
+        font-size: 20px;
+    }
+
+    .educ.card, .back.card, .affi.card, .cert.card{
+        width: auto;
+    }
+  }
 
 .educ.container .row, .back.container .row{
     justify-content: center;
