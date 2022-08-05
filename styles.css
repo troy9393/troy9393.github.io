@@ -93,7 +93,7 @@ body{
 
 /* Education */
 .educ.container{
-    padding-top: 20vh;
+    padding-top: 15vh;
 }
 
 .sectionHeader{
@@ -221,7 +221,7 @@ body{
 }
 
 /* Certificates */
-.cert.container{
+/* .cert.container{
     padding-top: 20vh;
 }
 
@@ -231,6 +231,10 @@ body{
 
 .cert.container .card{
     margin-top: 50px;
+} */
+
+.footer.section{
+    padding: 20px;
 }
 
 
