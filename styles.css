@@ -3,15 +3,26 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    font-family: 'Victor Mono', monospace
+    /* font-family: 'Victor Mono', monospace */
+    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Helvetica 25 UltraLight', sans-serif;
+    font-family: 'Helvetica 35 Thin', sans-serif;
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-family: 'Helvetica 55 Roman', sans-serif;
+    font-family: 'Helvetica 65 Medium', sans-serif;
+
 }
 
 body{
-    background-color: #2d3142;
+    background-color: #0D1B2A;
 }
 
 .navbar{
-    background-color: #2b2f42;
+    background-color: #415A77;
+}
+
+.educ.section, .affi.section{
+    background-color: #1B263B;
 }
 
 .navbar-brand{
@@ -19,7 +30,7 @@ body{
 }
 
 .navbar-brand span{
-    color: #ef8354;
+    color: #f0e6d3;
 }
 
 .collapse{
@@ -27,11 +38,11 @@ body{
 }
 
 .navbar-nav .nav-item .nav-link{
-    color: #ef8354;
+    color: #f0e6d3;
 }
 
 .navbar-nav .nav-item .nav-link.active{
-    color: #ffffff;
+    color: #f0e6d3;
 }
 
 .navbar-nav .nav-item .nav-link.active, .navbar-nav .nav-item .nav-link{
@@ -43,33 +54,33 @@ body{
 }
 
 #Iam{
-    color: #ef8354;
+    color: #778DA9;
     font-size: 25px;
 }
 
 #headName{
-    color: #ffffff;
+    color: #f0e6d3;
     font-size: 75px;
     margin-top: 10px;
+    font-weight: 700;
 }
 
 #desc{
-    color: #728cb9;
+    color: #cacac7;
     font-size: 20px;
     margin-top: 20px;
 }
 
 .start{
+    color: white;
+    background-color: #778DA9;
+    border-color: #778DA9;
     margin-top: 20px;
 }
 
-section{
+.about.section, .educ.section, .back.section, .affi.section, .cert.section{
     height: 100vh;
     /* scroll-snap-align: start; */
-}
-
-.educ.section, .affi.section{
-    background-color: #3e4358;
 }
 
 #whole{
@@ -78,62 +89,46 @@ section{
     height: 100vh; */
 }
 
-
-
 /* Education */
 .educ.container{
     padding-top: 20vh;
 }
 
 .sectionHeader{
-    color: #ef8354;
+    color: #f0e6d3;
 }
 
 .educ.container h1{
     text-align: center;
 }
 
-.educ.card, .back.card{
-    margin-bottom: 25px;
+.educ.card{
+    margin-bottom: 20px;
     padding: 5px;
-    background: #2d3142;
+    background: #0D1B2A;
     width: 600px;
 }
 
 .back.card{
     margin-bottom: 25px;
     padding: 5px;
-    background: #3e4358;
+    background: #1B263B;
     width: 600px;
 }
 
 .affi.card{
     margin-bottom: 25px;
     padding: 5px;
-    background: #2d3142;
+    background: #0D1B2A;
     width: auto;
 }
 
 .cert.card{
     margin-bottom: 25px;
     padding: 5px;
-    background: #3e4358;
+    background: #2d6a4f;
     width: auto;
 }
-
-@media only screen and (max-width: 768px) {
-    .section{
-        height: auto;
-    }
-
-    .section h1{
-        font-size: 20px;
-    }
-
-    .educ.card, .back.card, .affi.card, .cert.card{
-        width: auto;
-    }
-  }
 
 .educ.container .row, .back.container .row{
     justify-content: center;
@@ -153,20 +148,20 @@ section{
 }
 
 .back.container h2{
-    color:#ef8354;
+    color:#f0e6d3;
 }
 
 .desc{
-    color: #ffffff;
+    color: #f0e6d3;
     line-height: 2;
 }
 
 .desc span{
-    color: #ef8354;
+    color: #778DA9;
 }
 
-#certificate{
-    color:#ef8354;
+#certificate, .contact, .contact span{
+    color:#5c7ca4;
 }
 
 .dev.container{
@@ -200,24 +195,25 @@ section{
 
 .affi.container h1{
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .org{
-    color:#ef8354;
+    color:#f0e6d3;
     margin-top: 50px;
     font-size: large;
 }
 
 .position{
-    color: #728cb9;
+    color: #778DA9;
 }
 
 .year{
-    color: #728cb9;
+    color: #778DA9;
 }
 
 .org_desc{
-    color:#ffffff;
+    color:#f0e6d3;
     text-align: justify;
     margin-top: 5px;
 }
@@ -232,5 +228,26 @@ section{
 }
 
 .cert.container .card{
-    margin-top: 100px;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .educ.section, .back.section, .affi.section, .cert.section{
+        height: auto;
+    }
+
+    .section h1{
+        font-size: 20px;
+    }
+
+    .educ.card, .back.card, .affi.card, .cert.card{
+        width: auto;
+    }
+
+    .educ.container, .back.container, .affi.container, .cert.container{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
