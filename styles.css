@@ -78,15 +78,17 @@ body{
     margin-top: 20px;
 }
 
-.about.section, .educ.section, .back.section, .affi.section, .cert.section{
+.about.section, .educ.section, .back.section, .affi.section, .footer.section{
     height: 100vh;
-    /* scroll-snap-align: start; */
+    scroll-snap-align: start;
 }
 
 #whole{
-    /* scroll-snap-type: y mandatory;
+    margin: 0;
+    padding: 0;
+    scroll-snap-type: y mandatory;
     overflow-y: scroll;
-    height: 100vh; */
+    height: 100vh;
 }
 
 /* Education */
@@ -230,6 +232,7 @@ body{
 .cert.container .card{
     margin-top: 50px;
 }
+
 
 @media only screen and (max-width: 768px) {
     .about.section, .educ.section, .back.section, .affi.section, .cert.section{
