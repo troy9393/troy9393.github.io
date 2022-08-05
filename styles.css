@@ -78,7 +78,7 @@ body{
     margin-top: 20px;
 }
 
-.about.section, .educ.section, .back.section, .affi.section, .footer.section{
+.about.section, .educ.section, .back.section, .affi.section{
     height: 100vh;
     /* scroll-snap-align: start; */
 }
@@ -256,5 +256,9 @@ body{
         padding-bottom: 50px;
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    .col.about{
+        padding-top: 10vh;
     }
 }
