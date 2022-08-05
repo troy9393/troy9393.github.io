@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/victormono@latest/dist/index.min.css">
   <link href="http://fonts.cdnfonts.com/css/helvetica-neue-9" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
   <!-- Navbar -->
@@ -45,10 +46,10 @@
     <div class="container about" id="about" style="height: 90vh;">
       <div class="row about mx-auto my-auto">
         <div class="col about">
-          <p id="Iam">Hi, I am</p>
-          <h1 id="headName">Troy Mikael Esguerra</h1>
-          <p id="desc">I am a graduating BS Information Technology student from De La Salle University Manila. This is a website representation of my resume based on the Bootstrap 5 framework.</p>
-          <a href="#educ"><button type="button" class="start btn btn-outline-primary btn-lg">Get to know me <i class="fa-solid fa-arrow-turn-down"></i></button></a>
+          <p id="Iam" data-aos="zoom-in">Hi, welcome to my page. :)</p>
+          <h1 id="headName" data-aos="zoom-in" data-aos-delay="1000">I am Troy Mikael Esguerra.</h1>
+          <p id="desc" data-aos="zoom-in" data-aos-delay="1300">A graduating BS Information Technology student from De La Salle University Manila and an aspiring software developer.</p>
+          <a href="#educ" data-aos="zoom-in" data-aos-delay="1600"><button type="button" class="start btn btn-outline-primary btn-lg">Get to know me <i class="fa-solid fa-arrow-turn-down"></i></button></a>
         </div>
       </div>
     </div>
@@ -59,25 +60,25 @@
   <section class="educ section">
     <div class="educ container" id="educ">
       <div class="row">
-        <div class="col my-auto">
+        <div class="col my-auto" data-aos="fade-right">
           <h1 class="sectionHeader">Education</h1>
         </div>
         <div class="col">
           <div class="educ row">
             <div class="col-12">
-              <div class="educ card">
+              <div class="educ card" data-aos="fade-left" data-aos-delay="300">
                 <div class="card-body">
                   <span class="org">Pasay City West High School</span><p class="position"> Junior High School 2012-2016</p>
                   <p class="org_desc">Graduated under the DOST-ESEP Program</p>
                 </div>
               </div>
-              <div class="educ card">
+              <div class="educ card" data-aos="fade-left" data-aos-delay="500">
                 <div class="card-body">
                   <span class="org">De La Salle University Manila</span><p class="position"> Senior High School 2014-2016</p>
                   <p class="org_desc">Graduated under the STEM Strand</p>
                 </div>
               </div>
-              <div class="educ card">
+              <div class="educ card" data-aos="fade-left" data-aos-delay="700">
                 <div class="card-body">
                   <span class="org">De La Salle University Manila</span><p class="position"> College 2016-Present</p>
                   <p class="org_desc">Bachelor of Science in Information Technology</p>
@@ -100,7 +101,7 @@
         <div class="col">
             <div class="back row">
                 <div class="col-12">
-                  <div class="back card">
+                  <div class="back card" data-aos="fade-right" data-aos-delay="300">
                     <div class="card-body">
                         <h2>Development</h2>
                         <p class="desc">I have learned systems development in
@@ -112,14 +113,14 @@
                           <span>UI</span> and <span>UX Design</span>.</p>
                     </div>
                   </div>
-                  <div class="back card">
+                  <div class="back card" data-aos="fade-right" data-aos-delay="500">
                     <div class="card-body">
                         <h2>Management</h2>
                         <p class="desc">I also completed a course called
                           <span>AWS Academy Cloud Foundations</span> as one of our curriculum requirements and got a <a id="certificate" target="_blank" href="https://www.credly.com/badges/42f7cc17-fde8-4a93-b1c5-2b5f7b3eae2c?source=linked_in_profile">certificate</a>.</p>
                     </div>
                   </div>
-                  <div class="back card">
+                  <div class="back card" data-aos="fade-right" data-aos-delay="700">
                     <div class="card-body">
                         <h2>Operations</h2>
                         <p class="desc">With years of using computers and other devices, I am proficient at using
@@ -130,7 +131,7 @@
               </div>
         </div>
         <div class="col my-auto">
-            <h1 class="sectionHeader">Background</h1>
+            <h1 class="sectionHeader" data-aos="fade-left">Background</h1>
         </div>
       </div>
     </div>
@@ -140,22 +141,22 @@
   <!-- Affiliations -->
   <section class="affi section">
     <div class="affi container" id="affi">
-      <h1 class="sectionHeader">Affiliations</h1>
+      <h1 class="sectionHeader" data-aos="fade-up">Affiliations</h1>
       <div class="row">
         <div class="col-12">
-          <div class="affi card">
+          <div class="affi card" data-aos="fade-up" data-aos-delay="300">
             <div class="card-body">
               <span class="org">La Salle Computer Society</span><span class="position"> Member 2019</span>
               <p class="org_desc">LSCS has been striving to develop their members to become competent and well-rounded Lasallians who are aware of the numerous advances in computer technology.</p>
             </div>
           </div>
-          <div class="affi card">
+          <div class="affi card" data-aos="fade-up" data-aos-delay="500">
             <div class="card-body">
               <span class="org">Google Developer Student Clubs</span><span class="position"> Member 2019</span>
               <p class="org_desc">DSC is a community of Lasallian helping one another learn emerging technologies with Google to solve real-word problems for our communities and local business.</p>
             </div>
           </div>
-          <div class="affi card">
+          <div class="affi card" data-aos="fade-up" data-aos-delay="700">
             <div class="card-body">
               <span class="org">User Experience Society - DLSU</span><span class="position"> Member 2019</span>
               <p class="org_desc">UXsoc aids other various organizations by accomplishing quality products and services by applying principles, concepts, and methodologies in such strategies</p>
@@ -195,7 +196,7 @@
 
   <!-- Footer -->
   <section class="footer section">
-    <footer class="py-3">
+    <footer class="py-3" data-aos="zoom-in" data-aos-delay="300">
       <ul class="nav justify-content-center pb-3 mb-3">
         <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
         <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Education</a></li>
@@ -209,6 +210,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
