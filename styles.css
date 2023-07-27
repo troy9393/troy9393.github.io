@@ -1,14 +1,45 @@
-* {
-    box-sizing: border-box;
-    /* margin: 0;
-    padding: 0; */
-    scroll-behavior: smooth;
-    font-family: 'JetBrains Mono', monospace
-    /* font-family: 'Helvetica Neue', sans-serif;
-    font-family: 'Helvetica 25 UltraLight', sans-serif;
-    font-family: 'Helvetica 35 Thin', sans-serif;
-    font-family: 'Helvetica 45 Light', sans-serif;
-    font-family: 'Helvetica 55 Roman', sans-serif;
-    font-family: 'Helvetica 65 Medium', sans-serif; */
+body {
+    background-color: #222222;
+    color: antiquewhite;
+    font-family: "Roboto Mono", monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 20px;
+}
 
+.main {
+}
+
+.intro {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    h1 {
+        font-size: 5rem;
+    }
+}
+
+.card {
+    margin-top: 20px;
+    background-color: #444444;
+    color: antiquewhite;
+
+    .title {
+        font-size: 2rem;
+    }
+}
+
+@keyframes blink {
+    0%,
+    100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.intro h1::after {
+    content: "_"; 
+    animation: blink 1s step-end infinite;
 }
