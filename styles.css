@@ -29,6 +29,10 @@ body {
     }
 }
 
+.btn-dark i.fa-solid.fa-arrow-right {
+    color: rgb(252, 222, 183);
+}
+
 @keyframes blink {
     0%,
     100% {
@@ -40,6 +44,6 @@ body {
 }
 
 .intro h1::after {
-    content: "_"; 
+    content: "_";
     animation: blink 1s step-end infinite;
 }

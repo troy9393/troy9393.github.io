@@ -1,67 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Troy's Portfolio</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="container main">
-      <div class="container intro">
-        <h1>Hi! I'm <span class="name">Troy</span></h1>
-        <p>A software engineer from Manila, Philippines. Here are some of my projects: </p>
-      </div>
-  
-      <div class="container">
-        <div class="card">
-          <div class="card-body">
-            <p class="title">Order management system</p>
-            <p>spring boot, angular, mongodb</p>
-            <button type="button" class="btn btn-dark btn-sm">-></button>
-          </div>
-        </div>
-  
-        <div class="card">
-          <div class="card-body">
-            <p class="title">Fureverhome</p>
-            <p>spring boot, javascript, bootstrap, mysql</p>
-            <button type="button" class="btn btn-dark btn-sm">-></button>
-          </div>
-        </div>
-  
-        <div class="card">
-          <div class="card-body">
-            <p class="title">Corpus management system</p>
-            <p>python, javascript, bootstrap, mysql</p>
-            <button type="button" class="btn btn-dark btn-sm">-></button>
-          </div>
-        </div>
-      </div>
-    </div>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Troy's Portfolio</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+            crossorigin="anonymous"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="container main">
+            <div class="container intro">
+                <h1>Hi! I'm <span class="name">Troy</span></h1>
+                <p>
+                    A software engineer from Manila, Philippines. Here are some
+                    of my projects:
+                </p>
+            </div>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
-      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
-      crossorigin="anonymous"
-    ></script>
-    <script src="script.js"></script>
-  </body>
+            <div class="container">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="title">Order management system</p>
+                        <p>spring boot, angular, mongodb</p>
+                        <button
+                            type="button"
+                            class="btn btn-dark btn-sm"
+                            onclick="goToWebsite('https://github.com/FloresEdward/Order-Management-System')"
+                        >
+                            <i class="fa-brands fa-github"></i> Github
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <p class="title">Fureverhome</p>
+                        <p>spring boot, javascript, bootstrap, mysql</p>
+                        <button
+                            type="button"
+                            class="btn btn-dark btn-sm"
+                            onclick="goToWebsite('https://github.com/CHAMPets/fureverhome-app')"
+                        >
+                            <i class="fa-brands fa-github"></i> Github
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <p class="title">Corpus management system</p>
+                        <p>python, javascript, bootstrap, mysql</p>
+                        <button
+                            type="button"
+                            class="btn btn-dark btn-sm"
+                            onclick="goToWebsite('https://github.com/kimsimon902/corpusmanagementsystem')"
+                        >
+                            <i class="fa-brands fa-github"></i> Github
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script
+            src="https://kit.fontawesome.com/d899e28b1d.js"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+            integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+            crossorigin="anonymous"
+        ></script>
+        <script src="script.js"></script>
+    </body>
 </html>
